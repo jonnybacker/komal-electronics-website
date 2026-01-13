@@ -7,7 +7,8 @@ export default function Features() {
       
       {/* Video Inspiration: Scrolling Text Strip */}
       <div className="bg-brand-gold/10 border-y border-brand-gold/10 py-3 overflow-hidden backdrop-blur-sm relative z-20">
-         <div className="whitespace-nowrap animate-marquee flex items-center gap-8">
+         {/* Updated animation: animate-marquee-mobile for mobile (faster) and md:animate-marquee for desktop */}
+         <div className="whitespace-nowrap animate-marquee-mobile md:animate-marquee flex items-center gap-8">
              {[...Array(6)].map((_, i) => (
                 <span key={i} className="text-sm md:text-base font-bold text-brand-gold/70 uppercase tracking-[0.2em] flex items-center gap-8">
                     Smart Home <span className="w-1.5 h-1.5 bg-brand-gold rounded-full"></span> 

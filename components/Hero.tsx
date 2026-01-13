@@ -105,11 +105,8 @@ export default function Hero() {
         {/* Main Content */}
         <div className="reveal-text relative max-w-5xl mx-auto">
             
-            {/* Heading */}
+            {/* Heading - Removed "Expert Electrical &" based on user edit */}
             <h1 className="text-4xl sm:text-6xl md:text-8xl font-black text-white leading-[1.1] mb-8 tracking-tighter drop-shadow-2xl">
-              <span className="block mb-2 md:mb-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-400">
-                Expert Electrical &
-              </span>
               
               <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6">
                  {/* Highlighted Box Style */}

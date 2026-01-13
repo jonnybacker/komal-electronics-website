@@ -62,7 +62,7 @@ export default function Navbar() {
                 href={`https://wa.me/${CONTACT_INFO.whatsapp}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                // CHANGED: rounded-sm -> rounded-full
+                // ENSURED: rounded-full for circle/pill form
                 className="bg-brand-gold hover:bg-brand-goldHover text-brand-dark px-5 py-2.5 rounded-full font-bold transition-all transform hover:scale-105 flex items-center gap-2 shadow-lg hover:shadow-brand-gold/20"
                 >
                 <Phone className="w-4 h-4" />
